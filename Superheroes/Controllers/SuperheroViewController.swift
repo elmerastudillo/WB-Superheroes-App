@@ -134,8 +134,9 @@ class SuperheroViewController: ViewController {
     func showAlert() {
         let alertController = UIAlertController(title: "Stored", message:
             "Superhero has been saved!", preferredStyle: .alert)
-        alertController.addAction(UIAlertAction(title: "OK", style: .default))
-        
+        alertController.addAction(UIAlertAction(title: "OK", style: .default, handler: { (alert) in
+            self.dismiss(animated: true, completion: nil)
+        }))
         self.present(alertController, animated: true, completion: nil)
     }
 }
