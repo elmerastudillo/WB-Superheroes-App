@@ -1,0 +1,38 @@
+PODS:
+  - Alamofire (4.8.2)
+  - Kingfisher (5.4.0)
+  - Realm (3.14.1):
+    - Realm/Headers (= 3.14.1)
+  - Realm/Headers (3.14.1)
+  - RealmSwift (3.14.1):
+    - Realm (= 3.14.1)
+  - SnapKit (5.0.0)
+  - SwiftCharts (0.6.5)
+
+DEPENDENCIES:
+  - Alamofire
+  - Kingfisher
+  - RealmSwift
+  - SnapKit
+  - SwiftCharts
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - Kingfisher
+    - Realm
+    - RealmSwift
+    - SnapKit
+    - SwiftCharts
+
+SPEC CHECKSUMS:
+  Alamofire: ae5c501addb7afdbb13687d7f2f722c78734c2d3
+  Kingfisher: 9c8f2cc6710334e06f32ba2b45e77707d5e2f0c9
+  Realm: e12c9c2387d05c5bba3a9c394838f5870e85763b
+  RealmSwift: a82eab9b04c3e1616082c7e17aa300740847769c
+  SnapKit: fd22d10eb9aff484d79a8724eab922c1ddf89bcf
+  SwiftCharts: 2e755ea292f0b87d3e4b2c1eb5afc080a20cdc15
+
+PODFILE CHECKSUM: 7d80abd1e93a518ced8433c1868a6687f3b9bc2d
+
+COCOAPODS: 1.5.3
